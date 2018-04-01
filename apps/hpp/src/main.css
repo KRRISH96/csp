@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: auto;
+  width: 90%;
+
+}
+.header {
+  text-align: center;
+  border: 5px solid #ae35ef;
+  margin: 5px 0;
+  border-radius: 50px;
+}
+.tagline {
+  text-align: left;
+  background-color: pink;
+  text-indent: 15px;
+  border: 2px solid red;
+  margin: 0 0 5px 0;
+}
+.tagline p {
+  padding:0 10px 10px 5px;
+}
+.skills {
+  padding: 0 10px;
+  border: 2px solid #cccccc;
+  background-color: grey;
+  margin: 0 0 5px 0;
+}
+.contact {
+  border: 3px solid purple;
+  padding: 0 10px;
+}
