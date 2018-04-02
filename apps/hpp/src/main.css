@@ -2,14 +2,25 @@ body {
   padding: 0;
   margin: auto;
   width: 90%;
-
+  background-color: #cccccc;
 }
+/*HEADER*/
 .header {
   text-align: center;
   border: 5px solid #ae35ef;
   margin: 5px 0;
   border-radius: 50px;
 }
+.header h1 {
+  font-style: italic;
+  color: red;
+}
+.header h2 {
+  font-style: bold;
+  color: purple;
+}
+
+/*TAGLINE*/
 .tagline {
   text-align: left;
   background-color: pink;
@@ -20,12 +31,19 @@ body {
 .tagline p {
   padding:0 10px 10px 5px;
 }
+
+/*SKILS*/
 .skills {
   padding: 0 10px;
   border: 2px solid #cccccc;
   background-color: grey;
   margin: 0 0 5px 0;
 }
+.skills p {
+  color: white;
+}
+
+/*CONTACT*/
 .contact {
   border: 3px solid purple;
   padding: 0 10px;
